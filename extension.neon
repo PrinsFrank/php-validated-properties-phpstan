@@ -1,7 +1,7 @@
 services:
     -
-        class: PrinsFrank\PhpStrictModels\Development\PHPStan\Extension\ModelPropertiesReflectionExtension
+        class: PrinsFrank\PhpValidatedPropertiesPhpStan\Extension\ModelPropertiesReflectionExtension
         tags:
             - phpstan.broker.propertiesClassReflectionExtension
 rules:
-    - PrinsFrank\PhpStrictModels\Development\PHPStan\Rule\NoPublicPropertiesOnModelRule
+    - PrinsFrank\PhpValidatedPropertiesPhpStan\Rule\NoPublicPropertiesOnModelRule
